@@ -104,7 +104,7 @@ function handleSocketData(client, chunk) {
       continue;
     }
 
-    if (frame.opcode !== 0x1) {
+    if (frame.opcode !== 0x1 && frame.opcode !== 0x2) {
       continue;
     }
 
