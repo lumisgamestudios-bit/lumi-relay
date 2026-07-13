@@ -1,0 +1,14 @@
+{
+  "name": "lumi-relay-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WebSocket relay server for LUMI PvP rooms.",
+  "main": "lumi-relay-server.js",
+  "scripts": {
+    "start": "node lumi-relay-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
